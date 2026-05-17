@@ -8,7 +8,7 @@ public interface MyList <T>{
 
     T removeFirst();
     T removeLast();
-    T removeAt();
+    T removeAt(int i);
     boolean remove(T item);
     void  clear();
 
